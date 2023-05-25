@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- google font css link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fullpage css link -->
+    <link rel="stylesheet" href="assets/vendor/fullpage/fullpage.min.css">
+    <!-- fontawsome css link -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="relative">
+
+    <!-- navigation section part start-->
+    <section class="navigaton fixed border-2 border-black rounded-[25px] top-[30%] p-2 right-[120px]">
+        <ul class="dmenu scroll-nav">
+            <li>
+                <a class="scroll-to active" href="#banner">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a class="scroll-to active" href="#aboutEduction">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a class="scroll-to active" href="#home">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a class="scroll-to active" href="#home">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a class="scroll-to active" href="#home">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a class="scroll-to active" href="#home">
+                    <span class="hidden my-2">Home</span> <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+    <!-- navigation section part end-->
+
+    <main id="fullpage" class="container mx-auto">
+        <div class="section active w-[100%] h-screen bg-slate-800 md:py-0 py-3" id="banner">
+            <div class="banner flex-col-reverse md:flex-row flex items-center justify-between px-[20px] md:px-[50px]">
+                <div class="banner_content w-[100%] md:w-[50%]">
+                    <h6 class="font-[Oswald] text-[50px] font-extrabold text-white">hi ,<span>Welcome</span></h6>
+                    <p class="font-[Oswald] font-extrabold text-gray-300 mt-4">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Expedita, eligendi impedit voluptates
+                        nobis in est excepturi adipisci cum, iusto id beatae sed provident molestiae pariatur inventore.
+                        Nisi, mollitia? Eaque, assumenda!</p>
+                    <button class=" bg-blue-500 text-white font-[Oswald] px-4 py-2 rounded mt-[30px] block">check
+                        it</button>
+                </div>
+                <div class="banner_img w-[100%] md:w-[50%] flex justify-center">
+                    <div class="left-sidebar border-2 border-white p-7 rounded-[20px] w-[400px] text-center">
+                        <div class="sidebar-header flex justify-between">
+                            <img src="https://wpriverthemes.com/drake/wp-content/themes/drake/assets/images/logo.png"
+                                alt="Logo">
+                            <span class="designation font-light font-[Oswald] text-white">Full stack Developer;
+                                Developer</span>
+                        </div>
+                        <img class="rounded-md my-[20px]"
+                            src="https://wpriverthemes.com/drake/wp-content/themes/drake/assets/images/me.jpg" alt="Me">
+                        <h2 class="email font-light font-[Oswald] text-[24px] text-white">hello@drake.design</h2>
+                        <h2 class="address font-light font-[Oswald] text-[24px] my-2 text-white">Based in Los Angeles,
+                            CA</h2>
+                        <p class="copyright font-light font-[Oswald] text-[14px] text-gray-300">© 2022 Drake. All Rights
+                            Reserved</p>
+                        <ul class="social-profile flex items-center flex-wrap justify-center">
+                            <li>
+                                <a href="#"
+                                    class="w-[50px] h-[50px] text-center leading-[50px] border-2 border-slate-400 rounded-[50%] m-4 block text-slate-400"><i
+                                        class="fa-brands fa-twitter"></i></fa-brands></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="w-[50px] h-[50px] text-center leading-[50px] border-2 border-slate-400 rounded-[50%] m-4 block text-slate-400"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="w-[50px] h-[50px] text-center leading-[50px] border-2 border-slate-400 rounded-[50%] m-4 block text-slate-400"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </li>
+                        </ul>
+                        <a href="#Contact"
+                            class="bg-blue-500 text-white font-[Oswald] px-4 py-2 rounded mt-[30px] block">
+                            <i class="las la-envelope"></i> Hire Me! </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section w-[100%] h-screen bg-blue-700" id="aboutEduction">
+
+        </div>
+        <div class="section w-[100%] h-screen bg-blue-600" id="services">some section</div>
+    </main>
+
+    <!-- fullpage js link -->
+    <script src="assets/vendor/fullpage/fullpage.min.js"></script>
+    <!-- main js link -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+.fp-is-overflow>.fp-overflow {
+    overflow-y: none;
+}
+.fp-watermark{
+    display: none;
+}
+.dmenu li{
+    margin: 10px 0px;
+}
